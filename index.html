@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>531 PHAT</title>
   <link href="style.css" rel="stylesheet">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,26 +17,28 @@
         <div class="base_numbers">
             <div>
                 <span class="base_number_label">Bench</span>
-                <input type="number" id="bench_input" class="base_number_input"></input>
+                <input type="number" id="bench_input" class="base_number_input" value="0"></input>
             </div>
             
             <div>
                 <span class="base_number_label">Overhead Press</span>
-                <input type="number" id="ohp_input" class="base_number_input"></input>
+                <input type="number" id="ohp_input" class="base_number_input" value="0"></input>
             </div>
             
             <div>
                 <span class="base_number_label">Deadlift</span>
-                <input type="number" id="deadlift_input" class="base_number_input"></input>
+                <input type="number" id="deadlift_input" class="base_number_input" value="0"></input>
             </div>
             
             <div>
                 <span class="base_number_label">Squat</span>
-                <input type="number" id="squat_input" class="base_number_input"></input>
+                <input type="number" id="squat_input" class="base_number_input" value="0"></input>
             </div>
         </div>
+        <br>
         
-        <div>
+        <button onclick="consolelifts()">go</button>
+        <div class="main_lifts_outline">
         <h4>microcycle 1</h4>
         <h4>microcycle 2</h4>
         <h4>microcycle 3</h4>
