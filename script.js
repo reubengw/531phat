@@ -1,12 +1,12 @@
-let bench = document.getElementById("bench_input").value;
-let ohp = document.getElementById("bench_input").value; 
-let squat = document.getElementById("bench_input").value; 
-let deadlift = document.getElementById("bench_input").value; 
+let bench,ohp,squat,deadlift;
 
-let consolelifts = function(){
-    console.log(calculateLifts());
+function loadbasevalues(){
+    bench = document.getElementById("bench_input").value;
+    ohp = document.getElementById("bench_input").value; 
+    squat = document.getElementById("bench_input").value; 
+    deadlift = document.getElementById("bench_input").value;
+    console.log("bench: ", bench,"ohp: ", ohp, "squat: ", squat, "deadlift: ", deadlift);
 }
-
 
 let calculateLifts = function(){
     return {
