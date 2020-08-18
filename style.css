@@ -1,26 +1,88 @@
+.html{
+    background-color:#84a0d4;
+}
+
 .main{
-    background-color:#F2F2F2;
-    width:100%;
-    height:600px;
     text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:25px;
+}
+
+
+.titles{
+    color:whitesmoke;
+    padding:20px;
+}
+
+.vert_bar{
+    padding:5px;
 }
 .base_numbers{
     text-align:left;
-    background-color:Red;
+    background-color:#6495ed;
+    color:white;
+    font-size:20px;
     display:inline-block;
+    padding:20px;
+    border-radius:10px;
 }
 
 .base_number_input{
-    background-color:#FFFF00;
     width:auto;
+    border-radius:10px;
+    border-color:cornflowerblue;
+    line-height:25px;
+    color:#1d5ed8;
+    font-size:15px;
 }
 
+.week_label{
+    font-size:40px;
+    padding:5px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
 .base_number_label{
-    background-color:white;
-    font-family:sans-serif;
+    background-color:cornflowerblue;
+    padding-right:25px;
 }
 
 .main_lifts_outline{
     text-align:left;
     margin-left:40px;
+    background-color:cornflowerblue;
+    color:white;
+    padding:10px;
+    width:30%;
+    margin:auto;
+    border-radius:15px;
+    display:none;
+}
+
+#main_display{
+    text-align:center;
+}
+
+.go_button{
+    background-color:cornflowerblue;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    border-color:black;
+    border-width: 10px;
+    padding:10px;
+    margin:20px auto;
+    cursor:pointer;
+
+
+}
+
+.go_button_text{
+    margin:auto;
+    color:white;
+    font-size:35px;
 }
